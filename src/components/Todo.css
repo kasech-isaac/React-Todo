@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color:#0B5345  ;
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1, p, div{
+      color:white;
+      
+  }
+
+  .App {
+   
+text-align: center;
+  padding: 0 36px;
+  max-width: 665px;
+  margin: 0 auto;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h1 {
+    text-align: left;
+    font-size: 1.7rem;
+  }
+  .shopping-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .lists {
+    background-color: black;
+    width: 45%;
+    text-align: center;
+    margin: 4px 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .lists.completed {
+    background-color: #811d1c;
+    text-decoration: line-through;
+    padding: 10px;
+  }
+
+  form > input {
+    background-color: #0B5345  ;
+    border: 0;
+    padding: 6px 0;
+    font-size: 1rem;
+    width: 240px;
+    outline: 0;
+    color: white;
+    border-bottom: 2px solid #FDFEFE;
+    margin-right: 8px;
+  }
+
+  button {
+    background-color: black;
+    border: 1px solid #FDFEFE;
+    color: white;
+    font-size: 16px;
+    padding: 6px 10px;
+  }
+
+  input::placeholder {
+    color: #e64944;
+    opacity: 1;
+  }
+
+  .clear-button {
+    margin-top: 16px;
+    background-color: red;
+    margin-left: 40%;
+    
+  }
